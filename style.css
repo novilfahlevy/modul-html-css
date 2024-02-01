@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+nav, section, article, aside, footer {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.nav-link {
+  /* menghapus lingkaran hitam pada list */
+  list-style: none;
+  display: inline-block;
+  width: 100px;
+  height: 50px;
+  margin: 20px;
+  box-sizing: border-box;
+}
+
+.box {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+#header {
+  background-color: blanchedalmond;
+  padding: 30px;
+  border: 5px solid green;
+  margin: 30px;
+}
+
+img[alt="Naruto"] {
+  float: left;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+  border: 1px solid red;
+  margin: 0;
+}
+
+.row::after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .col-phone-1 {width: 8.33%;}
+  .col-phone-2 {width: 16.66%;}
+  .col-phone-3 {width: 25%;}
+  .col-phone-4 {width: 33.33%;}
+  .col-phone-5 {width: 41.66%;}
+  .col-phone-6 {width: 50%;}
+  .col-phone-7 {width: 58.33%;}
+  .col-phone-8 {width: 66.66%;}
+  .col-phone-9 {width: 75%;}
+  .col-phone-10 {width: 83.33%;}
+  .col-phone-11 {width: 91.66%;}
+  .col-phone-12 {width: 100%;}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .col-potrait-tablet-1 {width: 8.33%;}
+  .col-potrait-tablet-2 {width: 16.66%;}
+  .col-potrait-tablet-3 {width: 25%;}
+  .col-potrait-tablet-4 {width: 33.33%;}
+  .col-potrait-tablet-5 {width: 41.66%;}
+  .col-potrait-tablet-6 {width: 50%;}
+  .col-potrait-tablet-7 {width: 58.33%;}
+  .col-potrait-tablet-8 {width: 66.66%;}
+  .col-potrait-tablet-9 {width: 75%;}
+  .col-potrait-tablet-10 {width: 83.33%;}
+  .col-potrait-tablet-11 {width: 91.66%;}
+  .col-potrait-tablet-12 {width: 100%;}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .col-landscape-tablet-1 {width: 8.33%;}
+  .col-landscape-tablet-2 {width: 16.66%;}
+  .col-landscape-tablet-3 {width: 25%;}
+  .col-landscape-tablet-4 {width: 33.33%;}
+  .col-landscape-tablet-5 {width: 41.66%;}
+  .col-landscape-tablet-6 {width: 50%;}
+  .col-landscape-tablet-7 {width: 58.33%;}
+  .col-landscape-tablet-8 {width: 66.66%;}
+  .col-landscape-tablet-9 {width: 75%;}
+  .col-landscape-tablet-10 {width: 83.33%;}
+  .col-landscape-tablet-11 {width: 91.66%;}
+  .col-landscape-tablet-12 {width: 100%;}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .col-desktop-1 {width: 8.33%;}
+  .col-desktop-2 {width: 16.66%;}
+  .col-desktop-3 {width: 25%;}
+  .col-desktop-4 {width: 33.33%;}
+  .col-desktop-5 {width: 41.66%;}
+  .col-desktop-6 {width: 50%;}
+  .col-desktop-7 {width: 58.33%;}
+  .col-desktop-8 {width: 66.66%;}
+  .col-desktop-9 {width: 75%;}
+  .col-desktop-10 {width: 83.33%;}
+  .col-desktop-11 {width: 91.66%;}
+  .col-desktop-12 {width: 100%;}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .col-large-desktop-1 {width: 8.33%;}
+  .col-large-desktop-2 {width: 16.66%;}
+  .col-large-desktop-3 {width: 25%;}
+  .col-large-desktop-4 {width: 33.33%;}
+  .col-large-desktop-5 {width: 41.66%;}
+  .col-large-desktop-6 {width: 50%;}
+  .col-large-desktop-7 {width: 58.33%;}
+  .col-large-desktop-8 {width: 66.66%;}
+  .col-large-desktop-9 {width: 75%;}
+  .col-large-desktop-10 {width: 83.33%;}
+  .col-large-desktop-11 {width: 91.66%;}
+  .col-large-desktop-12 {width: 100%;}
+}
